@@ -3,7 +3,7 @@ import { useEffect } from "react";
 function Contact() {
   useEffect(() => {
     document.title = 'Contact'
-  },[]);
+  }, []);
   return (
     <>
       <div className="contact-hero-section">
@@ -41,6 +41,7 @@ function Contact() {
                   href="https://university.webflow.com/support"
                   target="_blank"
                   className="btn w-button"
+                  rel="noreferrer"
                 >
                   Contact Support
                 </a>
